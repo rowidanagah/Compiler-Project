@@ -1,3 +1,4 @@
+
 class Goal(object):
 	pass
 
