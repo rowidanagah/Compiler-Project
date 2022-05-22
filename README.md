@@ -41,6 +41,6 @@ Error       := scanner error
 
 
 # To-do
-- [] Ast & parser
-- [] Interpreter
-- [] Power
+- [ ] Ast & parser
+- [ ] Interpreter
+- [ ] Power
