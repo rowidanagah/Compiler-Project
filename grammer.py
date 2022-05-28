@@ -1,4 +1,8 @@
-
+"""List of grammer base.
+#*** Expr   for := ADD, SUB
+#*** Term   for := Div, Mul   
+#*** Factor for := Id, number
+"""
 class Goal(object):
 	pass
 

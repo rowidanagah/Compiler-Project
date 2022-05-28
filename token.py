@@ -8,8 +8,11 @@
 #*** Over        := "/"
 #*** SpecialChr  := "()="
 #*** Error       := scanner error
-"""
 
+> Bases will be (name as well as operation)
+	*** name for := Id, Number, SpecialChr
+	*** op for   := otherwise like minus, over, times, div...
+"""
 class name(object):
 	pass
 
