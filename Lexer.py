@@ -28,8 +28,7 @@ class Scanner():
 		for word in lst:
 			token_lst.append(self._scan(word))
 		return token_lst
-"""
+
 text = ' 2 + 2 y '
 scan = Scanner()
 print(scan.scan(text)) # op [<Id, 2>, <+>, <Id, 2>, <Id, y>]
-"""
