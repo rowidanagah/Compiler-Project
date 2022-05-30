@@ -83,7 +83,7 @@ class Number(Factor):
 		
 class Identifier(Factor):
 	def __init__(self, val: str = None):
-		self.id = id
+		self.id = val
 	def __repr__(self):
 		return "Given Identifier is {}".foramt(self.id)
 

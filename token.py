@@ -62,7 +62,7 @@ class SpecialChr(name):
 		return "<%s>" %(self.val)
 
 class Error(object):
-  def __init__(self, type = "Lexical"):
+  def __init__(self, type):
     self.type = type
   def __repr__(self):
-    return "%s Error" %(self.type)
+    return "Error({})".format(self.type)

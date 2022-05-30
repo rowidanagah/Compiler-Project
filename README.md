@@ -38,13 +38,13 @@ Over        := "/"
 SpecialChr  := "()"
 Error       := scanner error
 ```
-## Scanner
+## Lexer
 specify the token list of a given text
 ```
 ```
 
 # To-do
-- [x] Scanner
+- [x] Lexer
 - [ ] Ast & parser
 - [ ] Interpreter
 - [ ] Power
